@@ -8,9 +8,20 @@
 body{
     background-color: var(--background);
     color: var(--main-white);
+
 }
 
 *{
     margin: 0;
     padding: 0;
+}
+
+.main{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
 }
