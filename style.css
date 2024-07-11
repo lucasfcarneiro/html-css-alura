@@ -28,22 +28,22 @@ body{
     text-align: center;
 }
 
-.container__box{
-    margin: 0 6em;
-}
-
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.container__title{
+.container__mainDescription{
+    margin: 0 6em;
+}
+
+.container__mainTitle{
     font-size: 28px;
     font-weight: 700;
 }
 
-.container__image{
+.container__mainImage{
     margin: 1em 0 2em 0 
 }
 
@@ -67,6 +67,34 @@ body{
     color: var(--second-gray);
 }
 
+.container__image{
+    width: 85%;
+}
 
+.secondary{
+    align-items: center;
+    margin: 0 6em;
+}
 
+.container__title{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--main-white);
+    margin-bottom: 0.1em;
+}
+
+.container__subtitle{
+    font-size: 16px;
+    color: var(--second-gray);
+    opacity: 70%; 
+    margin-bottom: 1em;  
+}
+
+.smallButton{
+    display: inline-block;
+}
+
+.container__description{
+    padding-right: 3em;
+}
 
