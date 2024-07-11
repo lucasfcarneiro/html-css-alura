@@ -98,3 +98,24 @@ body{
     padding-right: 3em;
 }
 
+.devices{
+    text-align: center;
+}
+
+.devicesTitle{
+    font-size: 48px;
+    color: var(--main-white);
+}
+
+.devicesList{
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.listItem{
+    font-size: 32px;
+    color: var(--main-white);
+}
+
